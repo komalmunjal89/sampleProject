@@ -1,0 +1,238 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "garima",
+      "password": "garima",
+      "fullName": "Garima Srivastava",
+      "favourites": [
+        4,
+        5,
+        8,
+        7
+      ]
+    },
+    {
+      "id": 1,
+      "name": "komal",
+      "password": "komal",
+      "fullName": "Komal Munjal",
+      "favourites": [
+        4,
+        6,
+        5
+      ]
+    },
+    {
+      "name": "ko",
+      "password": "komalmun",
+      "fullName": "hello",
+      "id": 2,
+      "favourites": []
+    },
+    {
+      "name": "deepak",
+      "password": "deepak",
+      "fullName": "Deepak Kumar",
+      "favourites": [],
+      "id": 3
+    },
+    {
+      "name": "test",
+      "password": "test",
+      "fullName": "Test User",
+      "favourites": [],
+      "id": 4
+    },
+    {
+      "name": "manan",
+      "password": "mjindal",
+      "fullName": "manan jindal",
+      "favourites": [],
+      "id": 5
+    },
+    {
+      "name": "aditya",
+      "password": "adityam",
+      "fullName": "aditya munjal",
+      "favourites": [],
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "cname": "divya jindAL",
+      "phoneNo": "234566789",
+      "email": "JINDAL@GMAIL.COM",
+      "age": "23",
+      "postedBy": {
+        "name": "manan",
+        "password": "mjindal",
+        "fullName": "manan jindal",
+        "favourites": [],
+        "id": 5
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 7
+    },
+    {
+      "cname": "shikha gulati",
+      "phoneNo": "876543677",
+      "email": "shukha@gmail.com",
+      "age": "34",
+      "postedBy": {
+        "name": "aditya",
+        "password": "adityam",
+        "fullName": "aditya munjal",
+        "favourites": [],
+        "id": 6
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 8
+    },
+
+
+    {
+      "cname": "Hitesh Thapliyal",
+      "phoneNo": "9816746678",
+      "email": "hitesh.thapi@gmail.com",
+      "age": "20",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 15
+    },
+    {
+      "cname": "Lokesh Sood",
+      "phoneNo": "89073567782",
+      "email": "loki.sood@gmail.com",
+      "age": "22",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 16
+    },
+    {
+      "cname": "Rishabh Rathi",
+      "phoneNo": "9846783309",
+      "email": "rishabh.rathee12@gmail.com",
+      "age": "22",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 17
+    },
+    {
+      "cname": "Amit Khatana",
+      "phoneNo": "9874527783",
+      "email": "amit.gayatri2@gmail.com",
+      "age": "18",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 18
+    },
+    {
+      "cname": "Gaurav Singh",
+      "phoneNo": "7890356678",
+      "email": "Gaurav.rajput@yahoo.in",
+      "age": "21",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 19
+    },
+    {
+      "cname": "Avinash Sharma",
+      "phoneNo": "78924567789",
+      "email": "avi.sharma21@gmail.com",
+      "age": "23",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 20
+    },
+    {
+      "cname": "Nehal Jain",
+      "phoneNo": "8907677789",
+      "email": "nehal.megha@gmail.com",
+      "age": "32",
+      "postedBy": {
+        "id": 1,
+        "name": "komal",
+        "password": "komal",
+        "fullName": "Komal Munjal",
+        "favourites": [
+          4,
+          6,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 21
+    }
+  ]
+}

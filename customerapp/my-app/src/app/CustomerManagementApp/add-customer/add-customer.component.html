@@ -1,0 +1,28 @@
+
+<div class="col s12 m6">
+  <div class="card darken-1">
+    <div class="card-content ">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder=" Enter customer's full Name" [(ngModel)]="cname" name="cname" type="text" class="validate">
+            </div>
+            <div class="input-field col s12">
+              <input [(ngModel)]="phoneNo" type="text" name="phoneNo" placeholder="Enter customer's phoneNo">
+            </div>
+            <div class="input-field col s12">
+              <input [(ngModel)]="email" type="text" name="email" placeholder="Enter customer's valid email-id">
+            </div>
+            <div class="input-field col s12">
+              <input [(ngModel)]="age" type="text" name="age" placeholder="Enter customer's age">
+            </div>
+
+
+          </div>
+        </form>
+        <a class="center waves-effect waves-light btn" (click)="addCustomer(cname, phoneNo,email,age)">Add Customer</a>
+      </div>
+    </div>
+  </div>
+</div>

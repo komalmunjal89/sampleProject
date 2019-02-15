@@ -1,0 +1,18 @@
+<div *ngIf="ob==false">
+  <nav>
+  <div class="nav-wrappers">
+    <ul>
+      <li>
+        <a href="#" class="brand-logo">Customer Management Application</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+    <app-login (login)="login($event)"></app-login>
+</div>
+
+<div *ngIf="ob==true">
+  <app-customer (logout1)="logout($event)"></app-customer>
+
+</div>
+
